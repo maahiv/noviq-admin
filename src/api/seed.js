@@ -1,10 +1,11 @@
 export const categories = [
-  { id: 'audio', name: 'Audio', emoji: '🎧' },
-  { id: 'mobile', name: 'Mobiles', emoji: '📱' },
-  { id: 'wearables', name: 'Wearables', emoji: '⌚' },
-  { id: 'computing', name: 'Computing', emoji: '💻' },
-  { id: 'gaming', name: 'Gaming', emoji: '🎮' },
-  { id: 'power', name: 'Power & Cables', emoji: '🔋' },
-  { id: 'smart-home', name: 'Smart Home', emoji: '🏠' },
-  { id: 'cameras', name: 'Cameras', emoji: '📷' }
+  { id: 'headphones', name: 'Headphones', emoji: '🎧', accent: 'Violet' },
+  { id: 'wireless-earbuds', name: 'Wireless Earbuds', emoji: '🎶', accent: 'Blue' },
+  { id: 'speakers', name: 'Speakers', emoji: '🔊', accent: 'Mint' },
+  { id: 'charger-cable', name: 'Charger & Cable', emoji: '🔌', accent: 'Orange' },
+  { id: 'gaming-series', name: 'Gaming Series', emoji: '🎮', accent: 'Pink' },
+  { id: 'smart-watches', name: 'Smart Watches', emoji: '⌚', accent: 'Yellow' },
+  { id: 'mobile', name: 'Mobile', emoji: '📱', accent: 'Cyan' },
+  { id: 'laptop', name: 'Laptop', emoji: '💻', accent: 'Red' }
 ];
+
